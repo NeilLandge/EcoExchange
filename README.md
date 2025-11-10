@@ -1,8 +1,6 @@
 # EcoExchange - Community Reuse Platform
 
 <p align="center">
-  <img src="frontend/public/logo.svg" width="120" alt="EcoExchange Logo"/>
-  <br>
   <img src="https://www.mongodb.com/assets/images/global/favicon.ico" width="26" title="MongoDB" />
   <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" width="26" title="Express.js" />
   <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="26" title="React" />
@@ -127,7 +125,7 @@ Application runs on `http://localhost:3000`
 ---
 
 ## Project Structure
-
+```bash
 ecoexchange/
 ├── backend/
 │ ├── config/
@@ -164,7 +162,7 @@ ecoexchange/
 ├── tailwind.config.js
 └── package.json
 
-text
+```
 
 ---
 
