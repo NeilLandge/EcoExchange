@@ -162,10 +162,6 @@ ecoexchange/
 └── package.json
 
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 74c7fa4 (updated readme)
 ---
 
 ## Screenshots
