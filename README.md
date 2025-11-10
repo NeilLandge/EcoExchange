@@ -123,10 +123,7 @@ Application runs on `http://localhost:3000`
 ---
 
 ## Project Structure
-<<<<<<< HEAD
-=======
 
->>>>>>> 74c7fa4 (updated readme)
 ```bash
 ecoexchange/
 ├── backend/
