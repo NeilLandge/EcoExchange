@@ -1,17 +1,16 @@
-# EcoExchange - Community Reuse Platform
+# ♻️ EcoExchange - Community Reuse Platform
 
-<p align="center">
-  <img src="https://www.mongodb.com/assets/images/global/favicon.ico" width="26" title="MongoDB" />
-  <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" width="26" title="Express.js" />
-  <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="26" title="React" />
-  <img src="https://nodejs.org/static/images/logo.svg" width="26" title="Node.js" />
-</p>
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 
 A full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js) that promotes sustainability by enabling users to list and exchange unused items within their community.
 
 **Developer:** Neil Landge  
 **Email:** neillandge5gmail.com  
-**GitHub:** [https://github.com/NeilLandge](https://github.com/NeilLandge)
+**GitHub:** [https://github.com/NeilLandge/EcoExchange](https://github.com/NeilLandge/EcoExchange)
 
 ---
 
@@ -125,6 +124,10 @@ Application runs on `http://localhost:3000`
 ---
 
 ## Project Structure
+<<<<<<< HEAD
+=======
+
+>>>>>>> 74c7fa4 (updated readme)
 ```bash
 ecoexchange/
 ├── backend/
@@ -163,19 +166,19 @@ ecoexchange/
 └── package.json
 
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 74c7fa4 (updated readme)
 ---
 
 ## Screenshots
 
-### Home Page
-![Home Page - Items Grid with search and filters](frontend/public/home-screenshot.png)
-
-### Add Item Page
-![Add Item Form with image upload](frontend/public/additem-screenshot.png)
-
-### Item Details
-![Detailed item view with all information](frontend/public/itemdetails-screenshot.png)
+![Dashboard](https://raw.githubusercontent.com/NeilLandge/EcoExchange/main/screenshots/dashboard.png)
+![Landing Page](https://raw.githubusercontent.com/NeilLandge/EcoExchange/main/screenshots/additem.png)
+![Signup Page](https://raw.githubusercontent.com/NeilLandge/EcoExchange/main/screenshots/item1.png)
+![AI Analysis Part 1](https://raw.githubusercontent.com/NeilLandge/EcoExchange/main/screenshots/item2.png)
+![AI Analysis Part 2](https://raw.githubusercontent.com/NeilLandge/EcoExchange/main/screenshots/markexchange.png)
 
 ---
 
@@ -195,13 +198,14 @@ ecoexchange/
 3. Set build command: `npm install`.
 4. Set start command: `npm run start` or `npm run dev`.
 5. Add environment variables:
+
+```bash
 PORT=5000
 MONGODB_URI=<your mongodb connection string>
 CLOUDINARY_CLOUD_NAME=<your cloudinary cloud name>
 CLOUDINARY_API_KEY=<your cloudinary api key>
 CLOUDINARY_API_SECRET=<your cloudinary api secret>
-
-text
+```
 6. Deploy and obtain your backend URL for the frontend.
 
 Make sure to update your frontend's `VITE_API_URL` with your backend deployment URL and redeploy.
